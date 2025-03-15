@@ -1,0 +1,99 @@
+:root {
+  --bg-color: #e8ecef;
+  --text-color: #333;
+  --accent-color: #fbfbfc;
+  --light-grey: #e0e3e6;
+  --medium-grey: #d3d8dc;
+  --dark-grey: #d9d9d9;
+  --darker-grey: #bfc1c3;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333333;
+  background-color: #fafafa;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Spectral", serif;
+  color: #333333;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 32px;
+  margin: 1.5rem 0 0.8rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 1.2rem 0 0.8rem;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  background-color: #bbbdbe;
+  padding: 0.05rem 0.2rem; /* Tighter padding: 1.6px top/bottom, 4.8px left/right */
+  border-radius: 20px; /* Slightly less rounded, still smooth */
+  transition: background-color 0.2s, color 0.2s;
+  display: inline-block;
+  margin-bottom: 0.5rem; /* Small gap to prevent touching */
+}
+
+a:hover {
+  background-color: #fbfbfc;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 0 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin: 2.5rem 0 1.2rem;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin: 2rem 0 1.2rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
