@@ -12,6 +12,29 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+.video-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .video-section {
+    margin-bottom: 3.5rem;
+  }
+}
+
 .map-container {
   margin-bottom: 1.5rem;
   background-color: #f0f0f0;
